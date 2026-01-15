@@ -57,3 +57,35 @@ body {
     position: sticky;
     top: 0;
 }
+
+.contenedor-zindex {
+position: relative;
+height: 150px;
+}
+
+.capa {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.capa-1 {
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+    z-index: 1;
+}
+
+.capa-2 {
+    top: 40px;
+    left: 40px;
+    background-color: red;
+    z-index: 2;
+}
+
+.capa-3 {
+    top: 60px;
+    left: 60px;
+    background-color: green;
+    z-index: 3;
+}
