@@ -47,3 +47,13 @@ body {
     bottom: 30px;
     right: 30px;
 }
+
+.contenedor-scroll {
+    height: 150px;
+    overflow: auto;
+}
+
+.elemento-sticky {
+    position: sticky;
+    top: 0;
+}
