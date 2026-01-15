@@ -41,3 +41,9 @@ body {
     top: 10px;
     right: 10px;
 }
+
+.boton-fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
