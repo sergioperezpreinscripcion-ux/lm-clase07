@@ -6,3 +6,26 @@ body {
     background-color: #f5f5f5;
     color: #333;
 }
+
+
+.contenedor,
+.contenedor-padre,
+.contenedor-scroll
+.contenedor-zindex {
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px;
+}
+.caja,
+.hijo-absolute,
+.elemento-fixed,
+.capa {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+
+.caja-relative{
+    position: relative;
+    top: 20px;
+}
